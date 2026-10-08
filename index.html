@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Stop</title>
+
+    
+</head>
+
+<body>
+
+<div class="box">
+
+    <header>
+        <h1>Traffic Stop: Make the Right Choice</h1>
+
+        <p>
+            You are driving in the United States when a police officer
+            suddenly pulls you over.
+        </p>
+    </header>
+
+    <!-- IMAGE: Police car stopping a driver -->
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTehMk1V-U2RXFOjUgJRj5x8k1bElGuu8ai9IBb2TFCqw&s=10" alt="Police car stopping a car">
+
+    <main>
+
+        <h2>Before You Start</h2>
+
+        <p>
+            Enter some information before beginning the story.
+        </p>
+
+        <form action="scene1.html" method="get">
+
+            <label for="name">Your name:</label>
+            <br>
+            <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                required
+            >
+
+            <br><br>
+
+            <label for="car">Choose your car:</label>
+            <br>
+
+            <select id="car" name="car">
+                <option value="sedan">Sedan</option>
+                <option value="suv">SUV</option>
+                <option value="truck">Truck</option>
+            </select>
+
+            <br><br>
+
+            <p>How experienced are you at driving?</p>
+
+            <input
+                type="radio"
+                id="new"
+                name="experience"
+                value="new"
+                required
+            >
+            <label for="new">New driver</label>
+
+            <br>
+
+            <input
+                type="radio"
+                id="some"
+                name="experience"
+                value="some"
+            >
+            <label for="some">Some experience</label>
+
+            <br>
+
+            <input
+                type="radio"
+                id="experienced"
+                name="experience"
+                value="experienced"
+            >
+            <label for="experienced">Experienced driver</label>
+
+            <br><br>
+
+            <label for="music">Favorite music:</label>
+            <br>
+
+            <input
+                type="text"
+                id="music"
+                name="music"
+                placeholder="Enter your favorite music"
+            >
+
+            <br><br>
+
+            <button type="submit">Start Story</button>
+
+        </form>
+
+    </main>
+
+    <footer>
+        <br>
+        <a href="aboutme.html">About Me</a>
+    </footer>
+
+</div>
+
+</body>
+</html>
